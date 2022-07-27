@@ -21,8 +21,8 @@ const Products = ({ cat, filters, sort }) => {
       try {
         const res = await publicRequest.get(
           cat
-            ? `http://localhost:5000/api/products?category=${cat}`
-            : `http://localhost:5000/api/products`
+            ? `https://matthewtrigoecomapi.herokuapp.com/api/products?category=${cat}`
+            : `https://matthewtrigoecomapi.herokuapp.com/api/products`
         );
         setProducts(res.data);
       } catch (err) {}
