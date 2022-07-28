@@ -1,3 +1,10 @@
+#Here is the link to my deployed site!
+
+https://superlative-tiramisu-6f34ab.netlify.app/
+
+my backend is hosted on heroku, please reach out to me if you want to inspect it (for security reasons)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
